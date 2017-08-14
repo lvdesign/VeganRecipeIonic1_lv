@@ -1,0 +1,149 @@
+{
+  "recipes": [
+    {
+      "id": 0,
+      "author": "John",
+      "date": "13/12/2014 À 16H53MN",
+      "title": "Pain d'épices",
+      "image": "images/epice.png",
+      "category": "dessert",
+      "summary": "Une recette de pain d'épice facile à réaliser !",
+      "preparationTime": "30",
+      "cookingTime": "10",
+      "ingredients": "350g de miel, 40g de cassonade, 125g de farine (T55 - farine classique), 125g de farine complète (T110), 1 sachet de levure chimique, 100ml de lait, 2 oeufs, 1 cuillère à café d'épices 'pain d'épice'",
+      "method": "Préchauffez votre four à 180°C. Dans une casserole faites fondre le miel avec le sucre. Dans un saladier mélangez les deux farines et la levure. Ajoutez les oeufs, le lait et le mélange d'épices puis le mélange miel-sucre. Mélangez le tout jusqu'à obtenir une pâte homogène. Mettez la pâte dans un moule à cake et faites cuire pendant 45 minutes. A mi-cuisson recouvrez le moule de papier d'aluminium pour préserver le moelleux du pain d'épice.",
+      "tips": "Dosez le mélange d'épices en fonction de vos goûts ! Le mélange classique contient à parts égales cannelle, anis, gingembre cardamone.",
+      "featured": true,
+      "notes": [
+        {
+          "note": "Imagine all the eatables, living in conFusion!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "note": "test note",
+          "author": "polo",
+          "date": "2017-05-02T20:07:14.444Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "author": "Paul",
+      "date": "13/12/2014 À 16H53MN",
+      "title": "Pain d'épices 1",
+      "image": "images/tianCourgettes.png",
+      "category": "plats",
+      "summary": "Une recette de pain d'épice facile à réaliser !",
+      "preparationTime": "30",
+      "cookingTime": "10",
+      "ingredients": "350g de miel, 40g de cassonade, 125g de farine (T55 - farine classique), 125g de farine complète (T110), 1 sachet de levure chimique, 100ml de lait, 2 oeufs, 1 cuillère à café d'épices 'pain d'épice'",
+      "method": "Préchauffez votre four à 180°C. Dans une casserole faites fondre le miel avec le sucre. Dans un saladier mélangez les deux farines et la levure. Ajoutez les oeufs, le lait et le mélange d'épices puis le mélange miel-sucre. Mélangez le tout jusqu'à obtenir une pâte homogène. Mettez la pâte dans un moule à cake et faites cuire pendant 45 minutes. A mi-cuisson recouvrez le moule de papier d'aluminium pour préserver le moelleux du pain d'épice.",
+      "tips": "Dosez le mélange d'épices en fonction de vos goûts ! Le mélange classique contient à parts égales cannelle, anis, gingembre cardamone.",
+      "featured": false,
+      "comments": [
+        {
+          "rating": "1",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        },
+        {
+          "rating": "2",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        },
+        {
+          "rating": "4",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "Peter",
+      "date": "13/12/2014 À 16H53MN",
+      "title": "Pain d'épices 2",
+      "image": "images/tartebru.png",
+      "category": "desserts",
+      "summary": "Une recette de pain d'épice facile à réaliser !",
+      "preparationTime": "30",
+      "cookingTime": "10",
+      "ingredients": "350g de miel, 40g de cassonade, 125g de farine (T55 - farine classique), 125g de farine complète (T110), 1 sachet de levure chimique, 100ml de lait, 2 oeufs, 1 cuillère à café d'épices 'pain d'épice'",
+      "method": "Préchauffez votre four à 180°C. Dans une casserole faites fondre le miel avec le sucre. Dans un saladier mélangez les deux farines et la levure. Ajoutez les oeufs, le lait et le mélange d'épices puis le mélange miel-sucre. Mélangez le tout jusqu'à obtenir une pâte homogène. Mettez la pâte dans un moule à cake et faites cuire pendant 45 minutes. A mi-cuisson recouvrez le moule de papier d'aluminium pour préserver le moelleux du pain d'épice.",
+      "tips": "Dosez le mélange d'épices en fonction de vos goûts ! Le mélange classique contient à parts égales cannelle, anis, gingembre cardamone.",
+      "featured": false,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "author": "Greg",
+      "date": "13/12/2014 À 16H53MN",
+      "title": "Pain d'épices 3",
+      "image": "images/epice.png",
+      "category": "appetizer",
+      "summary": "Une recette de pain d'épice facile à réaliser !",
+      "preparationTime": "30",
+      "cookingTime": "10",
+      "ingredients": "350g de miel, 40g de cassonade, 125g de farine (T55 - farine classique), 125g de farine complète (T110), 1 sachet de levure chimique, 100ml de lait, 2 oeufs, 1 cuillère à café d'épices 'pain d'épice'",
+      "method": "Préchauffez votre four à 180°C. Dans une casserole faites fondre le miel avec le sucre. Dans un saladier mélangez les deux farines et la levure. Ajoutez les oeufs, le lait et le mélange d'épices puis le mélange miel-sucre. Mélangez le tout jusqu'à obtenir une pâte homogène. Mettez la pâte dans un moule à cake et faites cuire pendant 45 minutes. A mi-cuisson recouvrez le moule de papier d'aluminium pour préserver le moelleux du pain d'épice.",
+      "tips": "Dosez le mélange d'épices en fonction de vos goûts ! Le mélange classique contient à parts égales cannelle, anis, gingembre cardamone.",
+      "comments": []
+    },
+    {
+      "id": 4,
+      "author": "Greg",
+      "date": "13/12/2014 À 16H53MN",
+      "title": "Pain d'épices 3",
+      "image": "images/gateaucitron.png",
+      "category": "drinks",
+      "summary": "Une recette de pain d'épice facile à réaliser !",
+      "preparationTime": "30",
+      "cookingTime": "10",
+      "ingredients": "350g de miel, 40g de cassonade, 125g de farine (T55 - farine classique), 125g de farine complète (T110), 1 sachet de levure chimique, 100ml de lait, 2 oeufs, 1 cuillère à café d'épices 'pain d'épice'",
+      "method": "Préchauffez votre four à 180°C. Dans une casserole faites fondre le miel avec le sucre. Dans un saladier mélangez les deux farines et la levure. Ajoutez les oeufs, le lait et le mélange d'épices puis le mélange miel-sucre. Mélangez le tout jusqu'à obtenir une pâte homogène. Mettez la pâte dans un moule à cake et faites cuire pendant 45 minutes. A mi-cuisson recouvrez le moule de papier d'aluminium pour préserver le moelleux du pain d'épice.",
+      "tips": "Dosez le mélange d'épices en fonction de vos goûts ! Le mélange classique contient à parts égales cannelle, anis, gingembre cardamone.",
+      "featured": false,
+      "comments": [
+        {
+          "rating": "1",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        },
+        {
+          "rating": "2",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        },
+        {
+          "rating": "4",
+          "comment": "Great recette",
+          "author": "titi",
+          "date": "2017-05-14T13:53:45.833Z"
+        }
+      ]
+    }
+  ],
+  "favorites": [
+    {
+      "_id": "",
+      "id": 1
+    },
+    {
+      "_id": "",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "_id": "0",
+      "id": 4
+    }
+  ]
+}
