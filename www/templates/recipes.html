@@ -1,0 +1,28 @@
+<ion-view view-title="Recipes">
+   <div class="tabs-striped tabs-color-balanced">
+    <ul class="tabs">
+        <li ng-class="{active:isSelected(1)}" class="tab-item">
+            <a ng-click="select(1)">All Recipes</a></li>
+        <li ng-class="{active:isSelected(2)}" class="tab-item">
+            <a ng-click="select(2)">Appetizers</a></li>
+        <li ng-class="{active:isSelected(3)}" class="tab-item">
+            <a ng-click="select(3)">Mains</a></li>
+        <li ng-class="{active:isSelected(4)}" class="tab-item">
+            <a  ng-click="select(4)">Desserts</a></li>
+        <li ng-class="{active:isSelected(5)}" class="tab-item">
+            <a  ng-click="select(4)">Drinks</a></li>
+    </ul>
+  </div>
+  <ion-content>
+    <ion-list><!--//_id for mongoDB-->
+      <ion-item ng-repeat="recipe in recipes | filter:{category: filtText}" href="#/app/recipes/{{recipe.id}}" class="item-thumbnail-left">
+        <img ng-src="{{baseURL+recipe.image}}">
+        <h2>{{recipe.title}}</h2>
+        <p>{{recipe.summary}}</p>
+        <ion-option-button class="button-assertive icon ion-plus-circled"
+            ng-click="addFavorite(recipe._id)">
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

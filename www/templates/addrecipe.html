@@ -1,0 +1,59 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Add Recipe</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeAddRecipe()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form id="addrecipeForm" name="addrecipeForm" ng-submit="AddRecipe()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Author</span>
+          <input type="text" ng-model="addrecipe.author">
+        </label>
+         <label class="item item-input">
+          <span class="input-label">Title</span>
+          <input type="text" ng-model="addrecipe.title">
+        </label>
+         <label class="item item-input">
+          <span class="input-label">Summary</span>
+          <textarea type="text" ng-model="addrecipe.summary"></textarea>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Category</span>
+          <input type="text" ng-model="addrecipe.category">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Image</span>
+          <input type="file" ng-model="addrecipe.image">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Preparation Time</span>
+          <input type="text" ng-model="addrecipe.preparationTime">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Cooking Time</span>
+          <input type="text" ng-model="addrecipe.cookingTime">
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Ingredients</span>
+          <textarea type="text" ng-model="addrecipe.ingredients"></textarea>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Method</span>
+          <textarea type="text" ng-model="addrecipe.method"></textarea>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Tips</span>
+          <textarea type="text" ng-model="addrecipe.tips"></textarea>
+        </label>
+
+        <label class="item">
+          <button class="button button-block button-balanced" type="submit">Add Recipe</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

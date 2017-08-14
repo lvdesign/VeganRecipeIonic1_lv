@@ -1,0 +1,20 @@
+<ion-view view-title="My Favorites">
+    <ion-nav-buttons side="secondary">
+      <div class="buttons">
+        <button class="button button-icon icon ion-ios-minus-outline"
+          ng-click="toggleDelete()"></button>
+      </div>
+    </ion-nav-buttons>
+  <ion-content>
+    <ion-list show-delete="shouldShowDelete"><!--//_id for mongoDB-->
+      <ion-item ng-repeat="recipe in recipes" href="#/app/recipes/{{recipe.id}}" class="item-thumbnail-left" on-swipe-left="deleteFavorite(recipe.id)">
+        <img ng-src="{{baseURL+recipe.image}}">
+        <h2>{{recipe.title}}</h2>
+        <p>{{recipe.summary}}</p>
+        <ion-delete-button class="ion-minus-circled"
+          ng-click="deleteFavorite(recipe.id)"><!--//_id for mongoDB-->
+        </ion-delete-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

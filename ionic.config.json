@@ -1,0 +1,8 @@
+{
+  "name": "veganionic",
+  "app_id": "069dffc8",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
+}

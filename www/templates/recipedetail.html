@@ -1,0 +1,42 @@
+<ion-view view-title="Recipes Details">
+     <ion-nav-buttons side="secondary">
+      <div class="buttons">
+        <button class="button button-icon icon ion-more"
+          ng-click="openPopover($event)"></button>
+      </div>
+    </ion-nav-buttons>
+  <ion-content>
+      <div class="card">
+          <div class="item item-body item-text-wrap">
+               <img class="full-image" ng-src="{{baseURL+recipe.image}}" alt="{{ recipe.title }}">
+                <h2>{{recipe.title}} </h2>
+                <small class="text-uppercase" ><em>Posted by : </em>{{ recipe.author }}, {{ recipe.createdAt | date }}</small>
+                    <h3><em>{{ recipe.summary }}</em></h3>
+                    <small class="text-uppercase" ><em>Preparation time : </em>{{ recipe.preparationtime }} mn, <em>Cooking time :</em>{{ recipe.cookingtime }} mn.</small>
+                    <p><em><b>Ingredients : </b></em>{{ recipe.ingredients }}</p>
+                    <p><em><b>Method : </b></em>{{ recipe.method }}</p>
+                    <p><em><b>Tips  :</b></em> {{ recipe.tips }}</p>
+              <i class="icon ion-social-twitter">
+              <a class="twitter-timeline" href="https://twitter.com/vegan_recette">Tweets by vegan_recette</a></i>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+      </div>
+      <div class="row">
+            <div class="col col-offset-10">
+                   <h4>Customer Comments &nbsp;&nbsp;&nbsp;
+                       <small>Sort by: &nbsp;
+                            <input type="text" ng-model="orderText">
+                       </small></h4>
+                    <ul class="list">
+                        <li ng-repeat="comment in recipe.comments | orderBy:orderText">
+                          <blockquote>
+                             <p>{{comment.rating}} Stars</p>
+                             <p>{{comment.comment}}</p>
+                             <footer>{{comment.postedBy.firstname}} {{comment.postedBy.lastname}}, {{comment.createdAt | date:'MMM. dd, yyyy'}}</footer>
+                          </blockquote>
+                        </li>
+                    </ul>
+            </div>
+      </div>
+  </ion-content>
+</ion-view>

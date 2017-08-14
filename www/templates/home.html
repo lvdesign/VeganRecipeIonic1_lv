@@ -1,0 +1,39 @@
+<ion-view view-title="Vegan Recipes" >
+  <ion-content>
+
+    <div class="card text-center">
+
+            <img src="img/logoORvegan200.png" class="imgHome" alt="brand" />
+            <h1 >Vegan Recipes</h1>
+            <h3 >We take inspiration from the World's best cuisine's Vegan recipes</h3>
+            <i class="icon ion-social-twitter"><a href="https://twitter.com/vegan_recette"></a></i>
+            <i class="icon ion-social-instagram-outline"><a href="https://www.instagram.com/recettevegan/"></a></i>
+
+          </div>
+
+    </div>
+
+    <div class="card">
+        <div class="item item-divider text-center">
+            Our Top Recipe
+        </div>
+        <div class="item item-thumbnail-left item-text-wrap">
+            <img ng-src="{{baseURL+recipe.image}}" alt="Uthappizza">
+            <h2>{{recipe.title}}</h2>
+            <p>{{recipe.summary}}</p>
+        </div>
+    </div>
+
+    <div class="card text-center">
+        <div class="item item-divider ">
+              Tweet tweet…
+        </div>
+        <div class="item item-text-wrap">
+        <i class="icon ion-social-twitter">
+              <a class="twitter-timeline" href="https://twitter.com/vegan_recette">Tweets by vegan_recette</a></i>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+  </ion-content>
+</ion-view>
