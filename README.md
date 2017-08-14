@@ -1,3 +1,19 @@
+## Hello, Vegan Recipes is pleased to welcome you.
+
+  For this project, I wanted to create a cooking site with MEAN technology (MongoDB, ExpressJS, AngularJS and Node.js.)
+  This the Ionic'version for the mobile site.
+  I took as the basis the site [Recipesoriginales.fr](http://www.recettesoriginales.fr/).
+  I brought some novelties like locating a restaurant's vegan or a store's vegan (not yet sorry…). 
+  A page for all the publication on instagram are visible.
+  As a user (if you log in) you will be able to publish your recipes and note those of the other members.
+  I hope you enjoy this site. I wish you a good journey ;-)
+
+  * my db.json is with the depot if you want to test somme action. 
+
+
+
+
+
 Ionic App Base
 ==============
 
